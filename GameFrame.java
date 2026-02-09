@@ -16,7 +16,7 @@ public class GameFrame extends JFrame {
     }
 
     public void showMenu() {
-        setContentPane(new MenuPanel(this));
+        // setContentPane(new MenuPanel(this));
         refresh();
     }
 
@@ -26,7 +26,7 @@ public class GameFrame extends JFrame {
     }
 
     public void startGame() {
-        setContentPane(new BattlePanel(this));
+        // setContentPane(new BattlePanel(this));
         refresh();
     }
 
